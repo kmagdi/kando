@@ -7,7 +7,7 @@ import { ParallaxProvider } from 'react-scroll-parallax'
 import './App.css'
 
 export const App=()=>{
-console.log("This is the process.env"+process.env.PUBLIC_URL)
+console.log("This is the process.env==="+process.env.PUBLIC_URL)
     return(
         
         <ParallaxProvider>
@@ -15,9 +15,10 @@ console.log("This is the process.env"+process.env.PUBLIC_URL)
                 <MyNavbar/>
                 <Switch>
                     <Route exact path="/" component={Home}/>
-                    <Route exact path="/kkando" component={Home}/>
+                  {/* <Route exact path="/kkando" component={Home}/>*/}
                     <Route exact path="/szak/:id" component={Szak} />
-                    <Route path="/kkando/szak/:id" component={Szak} />
+                   {/* <Route path="/kkando/szak/:id" component={Szak} />*/}
+                
 
                     <Redirect to="/" />
                 </Switch>

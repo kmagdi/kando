@@ -56,16 +56,16 @@ export const MyNavbar = () => {
             opacity: navbarState,
             display: navbarState===0?"none":"flex"
                 }} collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
-            <Link to="/kkando/#home"><Navbar.Brand>
+            <Link to="/#home"><Navbar.Brand>
                 {/*<Link to="/">Kandópage</Link>*/}
                 <img src={require('./assets/logo.png')} height="30px" alt="Kandó logo" />
             </Navbar.Brand></Link>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-snav">
                 <Nav className="mr-auto">
-                <Link to="/kkando/#iskola"><p className="nav-link link" role="button">Iskolánkról</p></Link>
-                <Link to="/kkando/#szakok"><p className="nav-link link" role="button">Szakok...</p></Link>
-                <Link to="/kkando/#footer"><p className="nav-link link" role="button">Elérhetőség</p></Link>
+                <Link to="/#iskola"><p className="nav-link link" role="button">Iskolánkról</p></Link>
+                <Link to="/#szakok"><p className="nav-link link" role="button">Szakok...</p></Link>
+                <Link to="/#footer"><p className="nav-link link" role="button">Elérhetőség</p></Link>
                 </Nav>
                 <Nav>
                 <a href="http://www.kkando.hu/"><p className="nav-link link" role="button">Vissza a Kandó oldalára</p></a>
