@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter,Route,Switch,Redirect} from "react-router-dom"
+import {BrowserRouter,Route,Switch,Redirect,HashRouter} from "react-router-dom"
 import {Szak} from "./components/Szak"
 import {Home} from "./components/Home"
 import {MyNavbar} from "./components/MyNavbar"
@@ -7,7 +7,7 @@ import { ParallaxProvider } from 'react-scroll-parallax'
 import './App.css'
 
 export const App=()=>{
-console.log("This is the process.env=:"+process.env.PUBLIC_URL)
+console.log("This is the process.env:"+process.env.PUBLIC_URL)
     return(
         
         <ParallaxProvider>
