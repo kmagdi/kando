@@ -1,0 +1,87 @@
+/*:root{
+    --fullh:calc(var(--vh) * 100);
+}*/
+html[smooth=true]{
+    scroll-behavior: smooth;
+}
+body,html{
+    overflow-x: hidden;
+}
+@media (min-width: 992px) {
+    html{
+        overflow-y:scroll;
+    }
+}
+@media (max-width: 991px) {
+    .mobile-hidden{
+        display:none;
+    }
+}
+a{
+    color: #eee !important;
+    text-decoration: none !important;
+    transition:color 0.2s;
+}
+a:hover, .link:hover{
+    color:#ccc !important;
+}
+.kozep{
+    position:absolute;
+    text-align:center;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+#welcome-image-logo{
+    width:8rem;
+    height:auto;
+}
+#welcome-text{
+    margin:1rem 0 0 0;
+    color:white;
+    font-size:1.25rem;
+}
+#welcome-title{
+    color:white;
+}
+.fade-in-img{
+    animation-delay: 0.75s;
+}
+.fade-in-p{
+    animation-delay: 1.5s;
+}
+.fade-in-h{
+    animation-delay: 0.4s;
+}
+.fade-in-img, .fade-in-p, .fade-in-h{
+    opacity: 0.0;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+    from{
+        opacity:0.0;
+    }
+    to{
+        opacity:1.0;
+    }
+}
+
+/* CUSTOM SCROLLBAR */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #343a40; 
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.25); 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.375); 
+}
+::-webkit-scrollbar-thumb:active {
+    background: rgba(0,0,0,0.5); 
+}
+/* CUSTOM SCROLLBAR */

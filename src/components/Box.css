@@ -1,0 +1,26 @@
+.react-card-flip-container{
+    width:250px;
+    height:350px;
+    margin:0.75rem;
+    cursor:pointer;
+    border-radius: 1rem;
+    display:inline-block;
+    transition:transform 0.25s;
+}
+.react-card-flip-container:hover{
+    transform:scale(1.05)/* rotateZ(1deg)*/;
+}
+.react-card-flip{
+    height:100%;
+}
+.react-card-front, .react-card-back{
+    background-color:rgba(0,0,0,0.65);
+    color:white;
+    padding:1rem;
+    border-radius: 1rem;
+    overflow:hidden;
+    /*transition:box-shadow 0.25s;*/
+}
+/*.react-card-front:hover, .react-card-back:hover{
+    box-shadow: 0 0 0.75rem rgba(0,0,0,1);
+}*/
