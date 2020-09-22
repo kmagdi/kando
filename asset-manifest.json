@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kando/static/css/main.159d9cce.chunk.css",
-    "main.js": "/kando/static/js/main.f6d04a5b.chunk.js",
-    "main.js.map": "/kando/static/js/main.f6d04a5b.chunk.js.map",
+    "main.js": "/kando/static/js/main.4b25ed4f.chunk.js",
+    "main.js.map": "/kando/static/js/main.4b25ed4f.chunk.js.map",
     "runtime-main.js": "/kando/static/js/runtime-main.ba150669.js",
     "runtime-main.js.map": "/kando/static/js/runtime-main.ba150669.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/kando/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.a6cdd82d.chunk.js": "/kando/static/js/2.a6cdd82d.chunk.js",
     "static/js/2.a6cdd82d.chunk.js.map": "/kando/static/js/2.a6cdd82d.chunk.js.map",
     "index.html": "/kando/index.html",
-    "precache-manifest.0315e2aa4d235969d2ee829cc18cab28.js": "/kando/precache-manifest.0315e2aa4d235969d2ee829cc18cab28.js",
+    "precache-manifest.5c3521bb8dbc13abdf3f299eb9160a00.js": "/kando/precache-manifest.5c3521bb8dbc13abdf3f299eb9160a00.js",
     "service-worker.js": "/kando/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/kando/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.159d9cce.chunk.css.map": "/kando/static/css/main.159d9cce.chunk.css.map",
@@ -53,6 +53,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.a6cdd82d.chunk.js",
     "static/css/main.159d9cce.chunk.css",
-    "static/js/main.f6d04a5b.chunk.js"
+    "static/js/main.4b25ed4f.chunk.js"
   ]
 }
