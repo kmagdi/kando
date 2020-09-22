@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c4346011cdacdf891243801bdd5a3f6",
+    "revision": "0db1f3748e0c96155d793c046e4a2801",
     "url": "/kando/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kando/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "a94dc3ec3baa45e29058",
+    "revision": "b1554150c45aa21cf0a2",
     "url": "/kando/static/css/main.159d9cce.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kando/static/js/2.a6cdd82d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a94dc3ec3baa45e29058",
-    "url": "/kando/static/js/main.535b9e93.chunk.js"
+    "revision": "b1554150c45aa21cf0a2",
+    "url": "/kando/static/js/main.432884b7.chunk.js"
   },
   {
     "revision": "e9e5dcbd121cf1a3d15b",
