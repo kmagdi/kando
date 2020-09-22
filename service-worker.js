@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kando/precache-manifest.cc455e613ab2230a442e605aafc3a8d1.js"
+  "/kando/precache-manifest.0e698cceb691c02e9a46e9ea11448887.js"
 );
 
 self.addEventListener('message', (event) => {
